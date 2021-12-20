@@ -1,0 +1,86 @@
+/* Navigation section */
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#home{
+    align-items: center;
+    justify-content: center;
+}
+
+#home::before{
+    width: 1200px;
+    height: 618px;
+}
+
+.h-primary {
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    margin: 1px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#home .btn {
+    /* display: flex; */
+    margin: 8px;
+    padding: 2px 7px;
+    background-color: rgb(153, 146, 146);
+    color: white;
+    border: 2px solid white;
+    font-family: 'Baloo Da 2', cursive;
+    border-radius: 6px;
+    font-size: 1rem;
+
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+
+#navbar::before{
+    width: 1200px;
+}
+#services{
+    width: 1200px;
+    flex-direction: column;
+}
+#services .container{
+    flex-direction: column;
+    padding: 3px 5px;
+}
+
+#client{
+    flex-wrap: wrap;
+}
+#clients::before{
+    height:310px ;
+    width: 1200px;
+}
+#feedback::before{
+    height:23% ;
+    width: 1375px;
+}
+#feedback .thx {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: rgb(66, 1, 1);
+}
